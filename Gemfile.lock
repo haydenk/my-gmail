@@ -1,0 +1,30 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    gmail (0.6.0)
+      gmail_xoauth (>= 0.3.0)
+      mail (>= 2.2.1)
+    gmail_xoauth (0.4.2)
+      oauth (>= 0.3.6)
+    highline (1.7.10)
+    mail (2.7.0)
+      mini_mime (>= 0.1.1)
+    mini_mime (1.0.0)
+    oauth (0.5.4)
+    options (2.3.2)
+    progress_bar (1.1.0)
+      highline (~> 1.6)
+      options (~> 2.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gmail (~> 0.6.0)
+  progress_bar (~> 1.1)
+
+RUBY VERSION
+   ruby 2.5.0p0
+
+BUNDLED WITH
+   1.16.1
